@@ -25,7 +25,7 @@ export function App()
      <h1 className={styles.title}>Movies</h1>
      </Link>
      <br></br>
-     {/* <Link to='/movie'>Movie</Link> */}
+     <Link to='/movie'>Movie</Link>
     </header>
     <main>
     <Routes>
