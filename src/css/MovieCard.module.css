@@ -1,0 +1,32 @@
+.movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.movieCard:hover{
+    opacity: 0.8;
+}
+
+.movieImage{
+    border-radius: 10px;
+    background-color: azure;
+
+}
+.ver {
+    
+    border-radius: 10px;
+    background-color: peru;
+    padding: 10px;
+}
+
+@media (max-width: 560px){
+    .movieImage{
+        width: 90%;
+        height: auto;
+    }
+}
