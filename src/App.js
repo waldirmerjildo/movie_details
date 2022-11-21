@@ -7,8 +7,6 @@ import {
   Link
 } from "react-router-dom";
 
-import MoviesGrid from './components/MoviesGrid';
-import HomePage from './components/HomePage';
 import MovieDetails from './pages/MovieDetails';
 import LandingPage from './pages/LandingPage';
 

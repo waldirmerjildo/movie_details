@@ -46,7 +46,7 @@ if(!isLoading &&  movies.length === 0 ){
     
    
   return (
-    <InfiniteScroll dataLength={movies.length} hasMore={true} next={() => setPage((prevpage) => prevpage + 1)}
+    <InfiniteScroll dataLength={movies.length} hasMore={hasMore} next={() => setPage((prevpage) => prevpage + 1)}
     loader={<Spinner/>}>
 
       <ul className={styles.moviesGrid}>
