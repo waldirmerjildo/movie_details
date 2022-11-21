@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import styles from "../css/MovieDetails.module.css";
 import { useParams } from "react-router-dom";
 import get from "../utils/httpClient";
-import Loading from "../components/Loading";
+
 import { Spinner } from "../components/Spinner";
 import { getMovieImg } from "../utils/getMovieImg";
 
